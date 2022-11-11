@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+p {
+  font-size: 18px;
+  color: red;
+  line-height: 30px;
+  font-family: sans-serif;
+}
+
+#cabecalho {
+  background-color: red;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+table {
+  margin: 50px;
+}
+
+#tabela tr td {
+  border: 1px solid black;
+  width: 200px;
+}
+
+.links {
+  padding: 10px;
+}
+
+.lado-esquerdo {
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.lado-direito {
+  position: relative;
+  width: 50%;
+  float: right;
+  top: 25px;
+}
+
+main {
+  display: inline-block;
+}
